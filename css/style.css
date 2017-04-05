@@ -1,0 +1,81 @@
+body{
+    max-width: 100%;
+    margin:0 auto;
+    background-color:#3498DB;
+}
+.navbar-brand {
+    font-family: 'Alfa Slab One', cursive;
+    font-size:1.3em;
+}
+.image-container{
+    max-width: 90%;
+    margin-bottom:10px;
+}
+h2{
+    padding:16px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size:1em;
+    color:#2C3E50;
+}
+.jumbotron{
+    margin-top: 20%;
+} 
+.jumbotron p{
+    font-family: 'Roboto', sans-serif;    
+}
+
+.jumbotron h1{
+    font-family: 'Alfa Slab One', cursive;  
+    font-size:1.5em;  
+}
+.section-style{    
+     border-radius: 5px;
+     padding-bottom : 20px;
+     margin-bottom: 30px;
+     background-color:#2980B9;
+}
+.card-title{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 0.9rem;
+    color: #E74C3C;
+}
+.card-block{
+    background-color:#ECF0F1
+}
+.section-style span{
+    padding : 16px;    
+}
+.contacts-position{
+    padding-left:30px;   
+    color : #2C3E50; 
+}
+
+.contacts-position a{
+    color: #2C3E50;
+}
+.icon-text{
+    padding-left:45px;
+    margin-top:-25px;
+}
+@media (min-width:750px){
+   
+.image-container{
+    max-width: 30%;    
+    margin-bottom:10px;
+}
+body{
+    max-width: 80%;
+    margin:0 auto;
+}
+}
+
+@media (min-width:1024px){
+.image-container{
+    max-width: 25%;    
+    margin-bottom:10px;
+}
+body{
+    max-width: 80%;
+    margin:0 auto;
+}
+}
